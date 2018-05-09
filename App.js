@@ -41,7 +41,7 @@ _getWeather = (lat, long) => {
       <View style={styles.container}>
         <StatusBar hidden={true}/>
         {isLoaded? (
-        <Weather weatherName = "Drizzle" temp = {Math.floor(temperature-273.15)}/> 
+        <Weather weatherName = {name} temp = {Math.floor(temperature-273.15)}/> 
         ) : (
           <View style={styles.loading}>
             <Text style={styles.loadingText}>Getting the weather</Text>
