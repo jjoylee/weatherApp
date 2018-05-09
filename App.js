@@ -1,10 +1,10 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import { StyleSheet, Text, View, StatusBar } from 'react-native';
-import Weahter from "./Weather";
+import Weather from "./Weather";
 
 export default class App extends Component {
   state = {
-    isLoaded : false
+    isLoaded : true
   }
   render() {
     const { isLoaded } = this.state;
@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
   },
   loading:{
     flex:1,
-    backgroundColor:'FDF6AA',
+    backgroundColor:'#FDF6AA',
     justifyContent:'flex-end',
     paddingLeft:25
   },

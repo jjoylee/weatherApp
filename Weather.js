@@ -1,4 +1,4 @@
-import React, {Componenet} from 'react';
+import React, { Component } from 'react';
 import {StyleSheet, Text, View} from 'react-native';
 import {LinearGradient} from 'expo';
 import {Ionicons} from "@expo/vector-icons";
